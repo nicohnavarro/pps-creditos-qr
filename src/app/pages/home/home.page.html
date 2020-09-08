@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="login"></ion-back-button>
+        </ion-buttons>
+        <ion-title slot="start">
+            Juego QR
+        </ion-title>
+        <ion-avatar slot="end" class="avatar">
+            <img src="../../assets/pruebaTP4.PNG">
+        </ion-avatar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-button class="boton lindo" expand="block " color="tertiary" (click)="scanCode()">Escanear</ion-button>
+
+</ion-content>

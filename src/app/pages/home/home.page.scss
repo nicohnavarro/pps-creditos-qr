@@ -1,0 +1,25 @@
+ion-content {
+    --background: #efc853;
+}
+
+.boton {
+    height: 40%;
+    margin: 2rem;
+}
+
+.avatar {
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.boton :hover {
+    border: 2px solid black;
+}
+
+.lindo {
+    background-color: white;
+}
+
+.feo {
+    background-color: black;
+}
