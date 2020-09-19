@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="login"></ion-back-button>
+        </ion-buttons>
+        <ion-title slot="start">
+            Credito QR
+        </ion-title>
+        <ion-avatar slot="end" class="avatar">
+            <img src="../../assets/pruebaTP4.PNG">
+        </ion-avatar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="inicio">
+        <div class="cajaImagen">
+            <img class="icon" src="../../../assets/podio.jpg" alt=" ">
+
+        </div>
+    </div>
+    <ion-list >
+        <ion-list-header color="tertiary">
+            Puntajes
+        </ion-list-header>
+
+            <ion-item *ngFor="let usuario of usuarios; index as i">
+            <!-- <ion-avatar slot="start">
+                <img src="./avatar-finn.png">
+            </ion-avatar> -->
+            <ion-label>{{usuario.correo}}</ion-label>
+            <ion-badge slot="end" color="success">22k</ion-badge>
+        </ion-item>
+    </ion-list>
+</ion-content>

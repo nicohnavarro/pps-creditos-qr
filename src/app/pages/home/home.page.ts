@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { BarcodeScanner, BarcodeScannerOptions } from '@ionic-native/barcode-scanner/ngx';
 
 @Component({
@@ -22,7 +23,7 @@ export class HomePage {
     disableSuccessBeep: false // iOS and Android
   }
 
-  constructor(private barcodeScanner: BarcodeScanner) {
+  constructor(private barcodeScanner: BarcodeScanner,private router:Router) {
 
   }
 
@@ -36,6 +37,10 @@ export class HomePage {
      }).catch(err => {
       alert("Scanning failed: " + err);
      });
+  }
+
+  goPuntajes(){
+    this.router.navigate(['/puntajes']);
   }
 
 
