@@ -7,17 +7,25 @@ ion-content {
 ion-list{
     background-color: #efc853;
     padding-top: 0;
-    margin-top: 30%;
+    margin-top: 0;
     padding: 1rem;
 }
 
 .icon {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 .inicio {
-    margin: 1rem;
     background-color: #efc853;
+}
+ion-list-header{
+    border-radius: 1rem;
+}
+
+ion-item{
+    --background: #54441364;
+    margin: 0.3rem;
+    border-radius: 1rem;
 }

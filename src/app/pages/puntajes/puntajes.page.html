@@ -14,20 +14,14 @@
 
 <ion-content>
     <div class="inicio">
-        <div class="cajaImagen">
-            <img class="icon" src="../../../assets/podio.jpg" alt=" ">
-
-        </div>
+        <img class="icon" src="../../../assets/podio.png" alt=" ">
     </div>
-    <ion-list >
+    <ion-list>
         <ion-list-header color="tertiary">
             Puntajes
         </ion-list-header>
 
-            <ion-item *ngFor="let usuario of usuarios; index as i">
-            <!-- <ion-avatar slot="start">
-                <img src="./avatar-finn.png">
-            </ion-avatar> -->
+        <ion-item *ngFor="let usuario of usuarios; index as i">
             <ion-label>{{usuario.correo}}</ion-label>
             <ion-badge slot="end" color="success">22k</ion-badge>
         </ion-item>
