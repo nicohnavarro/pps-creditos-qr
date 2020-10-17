@@ -1,0 +1,10 @@
+ion-content{
+    --background: #efc853;
+
+    ion-item{
+        margin: 2rem 1rem;
+        --background:#efc853;
+        box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,288);
+        border-radius: 8px;
+    }
+}

@@ -14,6 +14,9 @@ ion-item {
     --color: white;
     --border-color: #efc853;
     --border-radius: 1rem;
+    --background:#efc853;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,288);
+    border-radius: 8px;
     //--border-style: 2px solid #273B7A;
 }
 
@@ -46,6 +49,15 @@ ion-alert {
     margin-top: 0;
     padding: 0.2rem;
     height: 6rem;
+ 
+}
+
+ion-chip{
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,288);
+}
+
+ion-button{
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,288);
 }
 
 .recordarme {

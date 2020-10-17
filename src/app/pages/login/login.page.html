@@ -1,7 +1,7 @@
 <div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
     <div class="flb">
         <div class="Aligner-item Aligner-item--top"></div>
-        <img src="../../assets/pruebaTP4fin.png" alt="">
+        <img src="../../assets/inicio.PNG" alt="">
         <div class="Aligner-item Aligner-item--bottom"></div>
     </div>
 </div>
@@ -27,6 +27,7 @@
         <ion-input [type]="passwordType" name="contrasena" [(ngModel)]="clave" required></ion-input>
         <ion-icon slot="end" [name]="eyeType" color="white" (click)="tooglePassword()" style="zoom:1.0;"></ion-icon>
     </ion-item>
+    
     <div class="inicio">
         <div class="cajaImagen">
             <img class="icon" src="../../assets/pruebaTP4fin.png" alt=" ">
@@ -43,10 +44,10 @@
         <ion-label color="dark" (click)="ingresoInvitado()">Invitado</ion-label>
     </ion-chip>
     <ion-chip>
-        <ion-label color="success" (click)="ingresoTester()">Tester</ion-label>
+        <ion-label color="danger" (click)="ingresoTester()">Tester</ion-label>
     </ion-chip>
     <ion-chip>
-        <ion-label color="warning" (click)="ingresoAnonimo()">Anónimo</ion-label>
+        <ion-label color="info" (click)="ingresoAnonimo()">Anónimo</ion-label>
     </ion-chip>
 
     <div class="fin">
